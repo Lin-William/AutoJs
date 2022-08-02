@@ -1,0 +1,4 @@
+launchApp('钉钉');
+id("item_title").className("android.widget.TextView").text("待办").findOne().parent().click();
+className("android.view.View").text("去提交").findOne().click();
+className("android.widget.Button").untilFind().click();
